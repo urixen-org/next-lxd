@@ -1,0 +1,35 @@
+{
+  "name": "next-lxd",
+  "version": "0.1.0",
+  "description": "Production-grade LXD SFTP client with Node-API native addon",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "git": "https://github.com/urixen-org/next-lxd",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+      "build": "tsc",
+      "prepublishOnly": "npm run build",
+      "prepack": "npm run build",
+      "clean": "rm -rf dist"
+    },
+  "devDependencies": {
+    "@types/node": "^22",
+    "node-addon-api": "^8",
+    "node-gyp": "^11",
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "next-lxd-sftp": "^1.0.3",
+    "undici": "^8.5.0"
+  },
+  "license": "MIT",
+  "trustedDependencies": [
+    "next-lxd-sftp"
+  ]
+}

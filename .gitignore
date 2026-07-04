@@ -1,0 +1,13 @@
+node_modules/
+dist/
+build/
+*.node
+next.dll
+next.lib
+next.pdb
+libnext.so
+libnext.dylib
+*.exp
+*.obj
+*.ilk
+*.pdb
