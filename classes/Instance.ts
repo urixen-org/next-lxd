@@ -1,4 +1,4 @@
-import { Resource } from './Resource';
+import { Resource } from './Resource.js';
 import type {
 	LxdInstanceResponse,
 	LxdInstanceDeleteResponse,
@@ -21,7 +21,7 @@ import type {
 	LxdInstanceBackupsPost,
 	LxdInstanceBackupPost
 } from '../types';
-import { Client } from './Client';
+import { Client } from './Client.js';
 import {
 	nextConnect,
 	nextDisconnect,

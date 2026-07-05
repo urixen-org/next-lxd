@@ -1,5 +1,5 @@
-import { Resource } from './Resource';
-import { StoragePool } from './StoragePool';
+import { Resource } from './Resource.js';
+import { StoragePool } from './StoragePool.js';
 
 import type {
 	LxdStoragePoolsResponse,

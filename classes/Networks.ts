@@ -1,5 +1,5 @@
-import { Resource } from './Resource';
-import { Network } from './Network';
+import { Resource } from './Resource.js';
+import { Network } from './Network.js';
 
 import type { LxdNetworksResponse, LxdNetworkResponse, LxdNetworksPost } from '../types';
 

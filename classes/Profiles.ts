@@ -1,5 +1,5 @@
-import { Resource } from './Resource';
-import { Profile } from './Profile';
+import { Resource } from './Resource.js';
+import { Profile } from './Profile.js';
 
 import type { LxdProfilesResponse, LxdProfileResponse, LxdProfilesPost } from '../types';
 

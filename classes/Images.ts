@@ -1,5 +1,5 @@
-import { Resource } from './Resource';
-import { Image } from './Image';
+import { Resource } from './Resource.js';
+import { Image } from './Image.js';
 
 import type { LxdImagesResponse, LxdImageResponse, LxdImagesPost, LxdBaseResponse } from '../types';
 
