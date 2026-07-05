@@ -5,7 +5,7 @@ import type {
 	LxdStoragePoolsResponse,
 	LxdStoragePoolResponse,
 	LxdStoragePoolsPost
-} from '../types';
+} from '../types.js';
 
 export class StoragePools extends Resource {
 	async list(project?: string): Promise<LxdStoragePoolsResponse> {

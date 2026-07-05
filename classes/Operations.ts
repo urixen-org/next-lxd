@@ -4,7 +4,7 @@ import { Operation } from "./Operation.js";
 import type {
   LxdOperationsResponse,
   LxdOperationResponse,
-} from "../types";
+} from "../types.js";
 
 export class Operations extends Resource {
   async list(project?: string): Promise<LxdOperationsResponse> {
