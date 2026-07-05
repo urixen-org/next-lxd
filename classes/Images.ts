@@ -1,7 +1,7 @@
 import { Resource } from './Resource.js';
 import { Image } from './Image.js';
 
-import type { LxdImagesResponse, LxdImageResponse, LxdImagesPost, LxdBaseResponse } from '../types.js';
+import type { LxdImagesResponse, LxdImageResponse, LxdImagesPost, LxdBaseResponse } from '../types/index.d.ts';
 
 export class Images extends Resource {
 	/**
