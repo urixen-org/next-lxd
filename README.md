@@ -2,7 +2,7 @@
 
 **Production-grade LXD client for Node.js** — wraps the LXD REST API (`/1.0`) with a typed, class-based interface, plus native SFTP support via `next-lxd-sftp`.
 
-> **Status:** v0.1.0 — MIT
+> **Status:** v1.0.0-built — MIT
 
 ---
 
