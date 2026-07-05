@@ -5,7 +5,7 @@ import type {
   LxdCertificateResponse,
   LxdCertificatePut,
   LxdBaseResponse,
-} from "../types.js";
+} from "../types/index.d.ts";
 
 export class Certificate extends Resource {
   public fingerprint: string;
