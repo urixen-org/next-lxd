@@ -1,5 +1,5 @@
 import { Resource } from './Resource.js';
-import type { LxdInstanceResponse, LxdInstancesResponse, InstanceCreateRequest } from '../types.js';
+import type { LxdInstanceResponse, LxdInstancesResponse, InstanceCreateRequest } from '../types/index.d.js';
 import { Instance } from './Instance.js';
 
 export class Instances extends Resource {
