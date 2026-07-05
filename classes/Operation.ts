@@ -4,7 +4,7 @@ import { Client } from "./Client.js";
 import type {
   LxdOperationResponse,
   LxdBaseResponse,
-} from "../types.js";
+} from "../types/index.d.ts";
 
 export class Operation extends Resource {
   public id: string;
