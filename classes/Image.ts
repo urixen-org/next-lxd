@@ -8,7 +8,7 @@ import type {
   LxdImageAliasResponse,
   LxdImageAliasesPost,
   LxdImageAliasesEntryPut
-} from '../types.js';
+} from '../types/index.d.ts';
 
 export class Image extends Resource {
   public name: string;
