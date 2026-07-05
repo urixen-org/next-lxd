@@ -1,5 +1,5 @@
-import { Resource } from "./Resource";
-import { Operation } from "./Operation";
+import { Resource } from "./Resource.js";
+import { Operation } from "./Operation.js";
 
 import type {
   LxdOperationsResponse,

@@ -1,5 +1,5 @@
-import { Resource } from './Resource';
-import { Project } from './Project';
+import { Resource } from './Resource.js';
+import { Project } from './Project.js';
 
 import type { LxdProjectsResponse, LxdProjectResponse, LxdProjectsPost } from '../types';
 

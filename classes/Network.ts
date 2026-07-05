@@ -1,5 +1,5 @@
-import { Resource } from "./Resource";
-import { Client } from "./Client";
+import { Resource } from "./Resource.js";
+import { Client } from "./Client.js";
 
 import type {
   LxdNetworkResponse,

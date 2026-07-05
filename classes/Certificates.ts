@@ -1,5 +1,5 @@
-import { Resource } from './Resource';
-import { Certificate } from './Certificate';
+import { Resource } from './Resource.js';
+import { Certificate } from './Certificate.js';
 
 import type {
 	LxdCertificatesResponse,

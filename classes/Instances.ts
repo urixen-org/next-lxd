@@ -1,5 +1,5 @@
-import { Resource } from './Resource';
-import { Instance } from './Instance';
+import { Resource } from './Resource.js';
+import { Instance } from './Instance.js';
 
 import type { LxdInstanceResponse, LxdInstancesResponse, InstanceCreateRequest } from '../types';
 
