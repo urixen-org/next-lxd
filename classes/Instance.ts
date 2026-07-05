@@ -20,7 +20,7 @@ import type {
 	LxdInstanceBackupResponse,
 	LxdInstanceBackupsPost,
 	LxdInstanceBackupPost
-} from '../types';
+} from '../types/index.d.ts';
 import { Client } from './Client.js';
 import {
 	nextConnect,
