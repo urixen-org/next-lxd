@@ -1,6 +1,6 @@
 import { request, Agent } from 'node:https';
 import type { IncomingHttpHeaders } from 'node:http';
-import type { LxdServerResponse } from '../types.js';
+import type { LxdServerResponse } from '../types/index.d.ts';
 
 export interface ClientOptions {
 	url: string;
