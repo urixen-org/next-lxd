@@ -17,7 +17,7 @@ import type {
   LxdNetworkPeerPut,
   LxdNetworkPeersResponse,
   LxdNetworkPeerResponse,
-} from "../types";
+} from "../types/index.d.ts";
 
 export class Network extends Resource {
   public name: string;
