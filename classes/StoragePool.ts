@@ -15,7 +15,7 @@ import type {
   LxdStorageVolumeSnapshotsPost,
   LxdStorageVolumeSnapshotPut,
   LxdStorageVolumeSnapshotPost,
-} from "../types";
+} from "../types.js";
 
 export class StoragePool extends Resource {
   public name: string;

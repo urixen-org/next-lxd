@@ -5,7 +5,7 @@ import type {
   LxdWarningResponse,
   LxdWarningPut,
   LxdBaseResponse,
-} from "../types";
+} from "../types.js";
 
 export class Warnings extends Resource {
   async list(project?: string): Promise<LxdWarningsResponse> {

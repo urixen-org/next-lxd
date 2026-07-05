@@ -6,7 +6,7 @@ import type {
   LxdProfilePut,
   LxdProfilePost,
   LxdBaseResponse,
-} from "../types";
+} from "../types.js";
 
 export class Profile extends Resource {
   public name: string;

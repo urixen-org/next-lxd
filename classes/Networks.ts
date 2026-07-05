@@ -1,7 +1,7 @@
 import { Resource } from './Resource.js';
 import { Network } from './Network.js';
 
-import type { LxdNetworksResponse, LxdNetworkResponse, LxdNetworksPost } from '../types';
+import type { LxdNetworksResponse, LxdNetworkResponse, LxdNetworksPost } from '../types.js';
 
 export class Networks extends Resource {
 	async list(project?: string): Promise<LxdNetworksResponse> {

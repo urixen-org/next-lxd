@@ -18,7 +18,7 @@ import type {
   LxdClusterGroupsPost,
   LxdBaseResponse,
   LxdClusterMembersPost,
-} from "../types";
+} from "../types.js";
 
 export class Cluster extends Resource {
   async get(): Promise<LxdClusterResponse> {

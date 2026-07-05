@@ -7,7 +7,7 @@ import type {
   LxdProjectPost,
   LxdProjectStateResponse,
   LxdBaseResponse,
-} from "../types";
+} from "../types.js";
 
 export class Project extends Resource {
   public name: string;

@@ -6,7 +6,7 @@ import type {
 	LxdCertificateResponse,
 	LxdCertificatesPost,
 	LxdBaseResponse
-} from '../types';
+} from '../types.js';
 
 export class Certificates extends Resource {
 	async list(): Promise<LxdCertificatesResponse> {
