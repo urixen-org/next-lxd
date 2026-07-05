@@ -1,6 +1,6 @@
 {
   "name": "next-lxd",
-  "version": "0.1.0",
+  "version": "1.0.0-built",
   "description": "Production-grade LXD SFTP client with Node-API native addon",
   "type": "module",
   "main": "./dist/index.js",
