@@ -1,7 +1,7 @@
 import { Resource } from './Resource.js';
 import { Project } from './Project.js';
 
-import type { LxdProjectsResponse, LxdProjectResponse, LxdProjectsPost } from '../types.js';
+import type { LxdProjectsResponse, LxdProjectResponse, LxdProjectsPost } from '../types/index.d.ts';
 
 export class Projects extends Resource {
 	async list(project?: string): Promise<LxdProjectsResponse> {
