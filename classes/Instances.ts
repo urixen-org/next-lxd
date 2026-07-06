@@ -16,7 +16,7 @@ export class Instances extends Resource {
 	/**
 	 * Get the state and configuration of a specific instance.
 	 */
-	async get(name: string, project?: string): Promise {
+	async get(name: string, project?: string): Promise<Instance> {
 		const data = (await this.client.request({
 			method: 'GET',
 			path: `/1.0/instances/${name}${project ? `?project=${project}` : ''}`
@@ -24,7 +24,7 @@ export class Instances extends Resource {
 		return new Instance(this.client, data);
 	}
 
-	async post(config: InstanceCreateRequest, project?: string, target?: string): Promise<Instance> {
+	async post(config: InstanceCreateRequest, project?: string, target?: string) {
 		const params = new URLSearchParams();
 
 		if (project) params.set('project', project);
