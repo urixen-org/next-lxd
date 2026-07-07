@@ -1,11 +1,12 @@
 {
   "name": "next-lxd",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Production-grade LXD SFTP client with Node-API native addon",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "git": "https://github.com/urixen-org/next-lxd",
+  "tags": ["lxd", "linux container", "sdk", "lxd api"],
   "exports": {
     ".": {
       "import": "./dist/index.js",
