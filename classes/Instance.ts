@@ -22,32 +22,8 @@ import type {
 	LxdInstanceBackupPost
 } from '../types/index.d.ts';
 import { Client } from './Client.js';
-import {
-	nextConnect,
-	nextDisconnect,
-	nextReadDir,
-	nextStat,
-	nextLstat,
-	nextReadLink,
-	nextRealPath,
-	nextGetwd,
-	nextGlob,
-	nextOpen,
-	nextOpenFile,
-	nextCreate,
-	nextRead,
-	nextWrite,
-	nextCloseFile,
-	nextRemove,
-	nextRemoveDir,
-	nextRename,
-	nextPosixRename,
-	nextMkdir,
-	nextMkdirAll,
-	nextChmod,
-	nextChown,
-	nextChtimes
-} from 'next-lxd-sftp';
+import pkg from 'next-lxd-sftp';
+const { nextConnect, nextDisconnect, nextReadDir, nextStat, nextLstat, nextReadLink, nextRealPath, nextGetwd, nextGlob, nextOpen, nextOpenFile, nextCreate, nextRead, nextWrite, nextCloseFile, nextRemove, nextRemoveDir, nextRename, nextPosixRename, nextMkdir, nextMkdirAll, nextChmod, nextChown, nextChtimes } = pkg;
 
 export class Instance extends Resource {
 	public name: string;
