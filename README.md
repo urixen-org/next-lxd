@@ -2,7 +2,7 @@
 
 **Production-grade LXD client for Node.js** — wraps the LXD REST API (`/1.0`) with a typed, class-based interface, plus native SFTP support via `next-lxd-sftp`.
 
-> **Status:** v1.0.3 — MIT
+> **Status:** v1.0.4 — MIT
 > [![Socket Badge](https://badge.socket.dev/npm/package/next-lxd/1.0.2)](https://badge.socket.dev/npm/package/next-lxd/1.0.2)
 
 ---
@@ -144,7 +144,7 @@ Collection class — access via `client.instances`.
 |---|---|---|
 | `list(project?)` | GET | `/1.0/instances?project=...` |
 | `get(name, project?)` | GET | `/1.0/instances/{name}` → returns `Instance` |
-| `post(config, project?, target?)` | POST | `/1.0/instances` — creates an instance and returns the `Instance` object |
+| `post(config, project?, target?)` | POST | `/1.0/instances` — creates an instance and returns the api response |
 
 ---
 
